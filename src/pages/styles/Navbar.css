@@ -1,0 +1,38 @@
+.Navigation {
+    width: 100vw;
+    height: 10vh;
+    color: #fff;
+    background: scroll;
+    background-size: cover;
+    background-color: #060606;
+    position: fixed;
+    margin-top: -15vh;
+
+
+}
+.Navigation ul {
+    list-style: none;
+}
+
+
+.Navigation a {
+    display: block;
+    padding: 0 10px;
+    font-size: 17px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.Navigation li {
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+
+}
+
+
+.Navigation .socials {
+    width: fit-content;
+}

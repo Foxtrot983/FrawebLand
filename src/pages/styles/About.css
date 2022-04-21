@@ -1,0 +1,29 @@
+.About {
+    color: #fff;
+    background-color: #060606;
+    margin-top: -20vh;
+
+}
+.About h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.About .tableP p {
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    width: 50vw;
+    font-size: larger;
+
+}
+.About table {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.About .tableIMG{
+    width: fit-content;
+}
