@@ -1,0 +1,44 @@
+.Services {
+    text-align: center;
+    color: white;
+    background-color: #060606;
+    background-size: cover;
+}
+.ServicesText h1{
+    text-transform: uppercase;
+    font-size: 36;
+}
+
+.ServicesText p {
+    font-size: 24;
+    width: 40vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.priceList .TableUpper {
+    text-transform: uppercase;
+}
+
+.priceList {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.priceList tr {
+    max-width: 60vw;
+
+}
+
+.priceList .Text {
+    text-align: left;
+}
+
+.Services table {
+    width: 70vw;
+}
+
+.Services button {
+    border-radius: 15px;
+}
