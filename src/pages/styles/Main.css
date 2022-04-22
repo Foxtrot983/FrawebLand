@@ -13,12 +13,8 @@
 }
 .Main h1 {
     /* Разработка сайтов под ключ */
-    position: absolute;
-    width: 624px;
-    height: 141px;
-    left: calc(50% - 624px/2 - 215px);
-    top: 216px;
-    
+    margin-top: 14rem;
+    margin-left: 2rem;
     font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
