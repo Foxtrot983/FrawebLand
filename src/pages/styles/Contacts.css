@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-.Contacts {
+#Contacts {
     background-image: url('../assets/PhoneContMU.png');
     width: 100%;
     height: 100%;
@@ -13,46 +13,46 @@
     color: #FFF;
     
 }
-.Contacts::after{
+#Contacts::after{
     box-shadow:inset 1000px 200px 85px rgba(0,0,0,0.4);
 }
 
-.Contacts #Head {
+#Contacts #Head {
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
     color: #FFF;
     text-align: center;
 }
 
-.Contacts #Text {
+#Contacts #Text {
     color: #FFF;
     text-transform: uppercase;
     text-align: center;
 }
 
-.Contacts button {
+#Contacts button {
     background-color: #FDEB8F #FFD600;
 }
 
-.Contacts .form-control {
+#Contacts .form-control {
     border-color: #E2B228;
     border-radius: 5px;
     color:#FFF;
     background-color: black;
     margin-top: 1rem;
 }
-.Contacts #LGroup button {
+#Contacts #LGroup button {
     font-size: 14px;
     background-color: #060606;
     border-color: #060606;
 }
 
-.Contacts #SButton p {
+#Contacts #SButton p {
     font-size: 11px;
     text-align: center;
 }
 
-.Contacts #SButton button {
+#Contacts #SButton button {
     border-radius: 10px;
     width: 100%;
     height: 5rem;

@@ -21,7 +21,7 @@ export default class Services extends Component{
     
     render(){
     return(
-        <div className='Services'>
+        <div id='Services'>
         <Container>
         <Row>
         <Col sm='1'></Col>

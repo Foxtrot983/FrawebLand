@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-.Pros {
+#Pros {
     background-image: url(../assets/ProsBG.png);
     background-color: #060606;
     background-repeat: no-repeat;
@@ -15,22 +15,22 @@
 
 
 
-.Pros .Left li {
+#Pros .Left li {
     list-style-type: none;
 }
 
-.Pros .Left li::before {
+#Pros .Left li::before {
     color: #FAFF00; /* Цвет маркера */
     content: "•"; /* Сам маркер */
     size: 20px;
     font-size: 30px;
 }
 
-.Pros .Right li {
+#Pros .Right li {
     list-style-type: none;
 }
 
-.Pros .Right li::before {
+#Pros .Right li::before {
     color: #FAFF00; /* Цвет маркера */
     content: "•"; /* Сам маркер */
     size: 20px;
@@ -38,11 +38,11 @@
     font-size: 30px;
 }
 
-.Pros .Center li {
+#Pros .Center li {
     list-style-type: none;
 }
 
-.Pros .Center li::before {
+#Pros .Center li::before {
     color: #FAFF00; /* Цвет маркера */
     content: "•"; /* Сам маркер */
     size: 20px;
@@ -51,11 +51,11 @@
 
 
 
-.Pros .Left p{
+#Pros .Left p{
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
-.Pros span {
+#Pros span {
     color:#FFFFFF;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
@@ -64,36 +64,36 @@
 
 }
 
-.Pros .Rig
+#Pros .Rig
 
-.Pros .Left h1 {
+#Pros .Left h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
 
 }
 
-.Pros .Right p{
+#Pros .Right p{
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     text-align: right;
 }
 
-.Pros .Right h1{
+#Pros .Right h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
     text-align: right;
 }
 
-.Pros .Center p{
+#Pros .Center p{
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     text-align: center;
 
 }
 
-.Pros .Center h1 {
+#Pros .Center h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
@@ -103,7 +103,7 @@
 
 
 
-.Pros .Proses {
+#Pros .Proses {
     font-family: 'Russo One', sans-serif;
     text-transform: uppercase;
     text-align: center;

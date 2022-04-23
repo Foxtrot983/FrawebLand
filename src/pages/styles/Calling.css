@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
-.Calling {
+#Calling {
     background-color: #060606;
     background-image: url('../assets/CallingBG.png');
     background-size: cover;
@@ -11,12 +11,12 @@
     position: relative;
 }
 
-.Calling .CallingText h1 {
+#Calling .CallingText h1 {
     margin-top: 10%;
     width: 55vw;
     text-transform: uppercase;
 }
-.Calling .CallingText {
+#Calling .CallingText {
     display:table-cell;
     vertical-align:bottom;
     width: 50vw;
@@ -25,13 +25,13 @@
     color: #060606;
 
 }
-.Calling .CallingText p {
+#Calling .CallingText p {
     padding-top: 3%;
     padding-bottom: 3%;
     width: 40vw;
 }
 
-.Calling .CallingText button{
+#Calling .CallingText button{
     border-radius: 10px;
 }
 

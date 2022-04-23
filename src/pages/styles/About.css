@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.About {
+#About {
     color: #fff;
     background-color: #060606;
     margin-top: -20vh;
 
 }
-.About h1 {
+#About h1 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 10%;
@@ -15,7 +15,7 @@
     font-size: 59px;
 }
 
-.About .tableP p {
+#About .tableP p {
     position: relative;
     text-align: left;
     margin-left: 10%;
@@ -24,12 +24,12 @@
     font-size: 17px;
 
 }
-.About table {
+#About table {
     margin-top: 5vh;
     margin-left: 10vw;
     margin-right: 10vw;
 }
 
-.About .tableIMG{
+#About .tableIMG{
     width: fit-content;
 }

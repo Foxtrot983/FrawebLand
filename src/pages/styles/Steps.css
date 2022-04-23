@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.Steps{
+#Steps{
     margin-top: 10%;
     color:#FFFFFF;
 }
 
-.Steps h1 {
+#Steps h1 {
     text-align: center;
     color: #FFFFFF;
     font-family: 'Russo One', sans-serif;
@@ -14,25 +14,25 @@
     text-align: left;
 }
 
-.Steps #text {
+#Steps #text {
     text-align: center;
     font-size: 59px;
 }
 
-.Steps h1 {
+#Steps h1 {
     font-family: 'Russo One', sans-serif;
     font-size: 96px;
     height: fit-content;
 
 }
 
-.Steps p {
+#Steps p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     height: max-content;
 }
 
-.Steps hr {
+#Steps hr {
     height: 2px;
     width: 50%;
     color: #E2B228

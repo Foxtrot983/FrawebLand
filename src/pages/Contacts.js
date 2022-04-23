@@ -1,5 +1,7 @@
 import {Col, Row, Container, Form, Button, ButtonGroup, Image} from 'react-bootstrap';
 import React, {Component} from 'react';
+
+
 import './styles/Contacts.css';
 
 import img1 from './assets/ContIMG1.png';
@@ -11,16 +13,22 @@ import IMGTele from './assets/IMGTele.png';
 import IMGFace from './assets/IMGFace.png';
 
 export default class Contacts extends Component{
+    constructor(props){
+        super(props);
+    }
+
+    
     render() {return(
-        <div className='Contacts'>
+        <div id='Contacts'>
             <Container>
                 <Row>
                     <Col sm='4'></Col>
                     <Col id='Head' sm='4'>
-                            <h1>Контакты</h1>
+                    <h1>Контакты</h1>
                     </Col>
                     <Col sm='4'></Col>
                 </Row>
+
                 <Row>
                     <Col sm='4'></Col>
                     <Col id='Text' sm='4'>

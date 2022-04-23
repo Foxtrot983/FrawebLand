@@ -5,8 +5,12 @@ import React, {Component} from 'react';
 
 
 class Pros extends Component {
+    constructor(props){
+        super(props);
+    }
+
     render() {return(
-        <div className="Pros">
+        <div id="Pros">
             <Container>
                 <Row>
                     <Col><h1 className='Proses'>Мои преимущества</h1></Col>

@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.Services hr {
+#Services hr {
     width: 100%;
     align-items: center;
     margin-top: -0.2rem;
     color: #E2B228;
 }
-.Services {
+#Services {
     text-align: center;
     color: white;
     background-color: #060606;
@@ -29,29 +29,29 @@
     margin-right: auto;
 
 }
-.Services #TableUpper {
+#Services #TableUpper {
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     white-space: nowrap;
 }
 
-.Services #Money {
+#Services #Money {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
 }
 
-.Services #Text {
+#Services #Text {
     text-align: left;
     font-size: 16;
     font-family: 'Open Sans', sans-serif;
     opacity: 63%;
 }
 
-.Services #tableIMG {
+#Services #tableIMG {
 }
 
-.Services button {
+#Services button {
     border-radius: 15px;
 }

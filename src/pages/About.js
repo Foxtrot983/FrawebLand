@@ -12,7 +12,7 @@ export default class About extends Component {
 
     render(){
         return(
-            <div className="About">
+            <div id="About">
                 <h1>Обо мне</h1>
                 <table>
                     <tr>

@@ -3,8 +3,12 @@ import {Col, Row, Container} from 'react-bootstrap'
 import React, {Component} from 'react';
 
 export default class Main extends Component{
+    constructor(props){
+        super(props);
+    }
+
     render(){return(
-        <div className='Main'>
+        <div id='Main'>
         <Container>
             <Row>
                 <Col sm='7'><h1>Разработка сайтов под ключ</h1></Col>

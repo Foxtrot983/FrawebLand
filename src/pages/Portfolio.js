@@ -10,8 +10,13 @@ import img5 from './assets/Portfolio5.png'
 import img6 from './assets/Portfolio6.png'
 
 export default class Portfolio extends Component {
-    render() {return(
-        <div className="Portfolio">
+    constructor(props){
+        super(props);
+    }
+    
+    render() {
+        return(
+        <div id="Portfolio">
             <h1>Портфолио</h1>
             <table className="PortTable">
                 <tr>
