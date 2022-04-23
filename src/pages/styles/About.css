@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 .About {
     color: #fff;
     background-color: #060606;
@@ -8,6 +11,8 @@
     text-transform: uppercase;
     text-align: center;
     margin-top: 10%;
+    font-family: "Russo One", sans-serif;
+    font-size: 59px;
 }
 
 .About .tableP p {
@@ -15,7 +20,8 @@
     text-align: left;
     margin-left: 10%;
     width: 50vw;
-    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 
 }
 .About table {

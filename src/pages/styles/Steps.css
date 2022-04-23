@@ -3,48 +3,36 @@
 
 .Steps{
     margin-top: 10%;
+    color:#FFFFFF;
 }
 
 .Steps h1 {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
     color: #FFFFFF;
     font-family: 'Russo One', sans-serif;
     font-size: 59px;
-    margin-bottom: 10vh
-
+    text-align: left;
 }
 
-.Steps .wrapper {
-    display: grid;
-    margin-left: 10%;
-    margin-right: 10%;
-    grid-template-columns: repeat(3, 65vh);
-    grid-template-rows: repeat(3, 25vw);
-    width: 75vw;
-    color: #FFFFFF;
-    max-width: 90vw;
+.Steps #text {
+    text-align: center;
+    font-size: 59px;
 }
-.wrapper h1 {
+
+.Steps h1 {
     font-family: 'Russo One', sans-serif;
     font-size: 96px;
-    max-width: 25vw;
-    align-items: center;
-    margin-bottom: -5%;
-    text-align: left;
-    margin-left: -2%;
+    height: fit-content;
 
 }
 
-.wrapper p {
+.Steps p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     height: max-content;
-    max-width: 25vw;
 }
 
-.wrapper hr {
+.Steps hr {
     height: 2px;
     width: 50%;
     color: #E2B228

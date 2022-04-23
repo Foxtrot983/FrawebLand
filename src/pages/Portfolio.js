@@ -1,3 +1,5 @@
+import React, {Component} from 'react';
+
 import "./styles/Portfolio.css"
 
 import img1 from './assets/Portfolio1.png'
@@ -7,8 +9,8 @@ import img4 from './assets/Portfolio4.png'
 import img5 from './assets/Portfolio5.png'
 import img6 from './assets/Portfolio6.png'
 
-export default function Portfolio() {
-    return(
+export default class Portfolio extends Component {
+    render() {return(
         <div className="Portfolio">
             <h1>Портфолио</h1>
             <table className="PortTable">
@@ -24,5 +26,5 @@ export default function Portfolio() {
                 </tr>
             </table>
         </div>
-    )
+    )}
 }

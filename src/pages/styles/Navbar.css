@@ -1,35 +1,14 @@
-.Navigation {
-    width: 100vw;
-    height: 10vh;
-    color: #fff;
-    background: scroll;
-    background-size: cover;
-    background-color: #060606;
-    position: fixed;
-    margin-top: -15vh;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-
-}
-.Navigation ul {
-    list-style: none;
+#Navigation {
+    align-items: center;
+    color: #FFF;
 }
 
 
-.Navigation a {
-    display: block;
-    padding: 0 10px;
-    font-size: 17px;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #fff;
-    margin-bottom: 5%;
-}
-
-.Navigation li {
-    display: inline-block;
-    text-align: center;
-    width: 12%;
-
+#Navigation #Socials {
+    align-items: flex-end;
 }
 
 

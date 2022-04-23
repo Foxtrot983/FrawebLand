@@ -1,8 +1,12 @@
+import React, {Component} from 'react';
+
 import "./styles/Calling.css";
 import {Button} from 'react-bootstrap';
 
-export default function Calling() {
-    return(
+
+export default class Calling extends Component {
+    render() { 
+        return(
         <div className='Calling'>
             <div className="CallingText">
                 <h1>Готовы прямо сейчас оставить заявку на разработку сайта?</h1>
@@ -11,4 +15,5 @@ export default function Calling() {
             </div>
         </div>
     )
+    }
 }

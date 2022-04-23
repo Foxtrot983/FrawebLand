@@ -4,21 +4,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navbar from './pages/Navbar';
+import Navigbar from './pages/Navbar';
 import reportWebVitals from './reportWebVitals';
 import Main from './pages/Main';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Pros from './pages/Pros';
-
 import Calling from './pages/Calling';
 import Steps from './pages/Steps';
+import Contacts from './pages/Contacts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
+    <Navigbar />
     <Main />
     <Services />
     <Portfolio />
@@ -26,6 +26,7 @@ root.render(
     <Pros />
     <Calling />
     <Steps />
+    <Contacts />
   </React.StrictMode>
 );
 

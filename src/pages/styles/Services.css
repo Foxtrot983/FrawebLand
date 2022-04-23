@@ -1,42 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.Services hr {
+    width: 100%;
+    align-items: center;
+    margin-top: -0.2rem;
+    color: #E2B228;
+}
 .Services {
     text-align: center;
     color: white;
     background-color: #060606;
     background-size: cover;
 }
-.ServicesText h1{
+#ServicesText h1{
     text-transform: uppercase;
     font-size: 36;
+    font-family: 'Russo One', sans-serif;
+    font-size: 59px;
 }
 
-.ServicesText p {
-    font-size: 24;
+#ServicesText p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
     width: 40vw;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 
 }
-.priceList .TableUpper {
+.Services #TableUpper {
     text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap;
 }
 
-.priceList {
-    margin-left: auto;
-    margin-right: auto;
+.Services #Money {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
-.priceList tr {
-    max-width: 60vw;
-
-}
-
-.priceList .Text {
+.Services #Text {
     text-align: left;
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 63%;
 }
 
-.Services table {
-    width: 70vw;
+.Services #tableIMG {
 }
 
 .Services button {
