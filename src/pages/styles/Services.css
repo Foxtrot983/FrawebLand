@@ -11,7 +11,7 @@
     text-align: center;
     color: white;
     background-color: #060606;
-    background-size: cover;
+    margin-top: 5vh;
 }
 #ServicesText h1{
     text-transform: uppercase;

@@ -9,9 +9,34 @@
 
 #Navigation #Socials {
     align-items: flex-end;
+    text-transform: lowercase;
 }
 
 
 .Navigation .socials {
     width: fit-content;
+}
+
+#Navigation #links {
+    padding-left: 5vw;
+}
+
+#Navigation #link {
+    margin-left: 2vw;
+}
+
+#Navigation a {
+    color: #fff
+}
+
+#Navigation a:hover {
+    color: #f1c40f;
+}
+
+#Navigation #socials a:hover {
+    filter: drop-shadow(0px 0px 10px #f1c40f);
+}
+
+.NavbarLogo {
+    filter: drop-shadow(0px 0px 10px #f1c40f);
 }

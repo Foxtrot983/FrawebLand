@@ -25,33 +25,33 @@ class Navigbar extends Component {
                               e.preventDefault();  // Stop Page Reloading
                               cont && cont.scrollIntoView();}}><Image src={logo} alt='logo' className='NavbarLogo' width={64} height={64}/></Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#Services" onClick = {e => {
+            <Nav className="me-auto" id='links'>
+              <Nav.Link href="#Services" id='link' onClick = {e => {
                               let cont = document.getElementById("Services");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Услуги</Nav.Link>
-              <Nav.Link href="#Portfolio" onClick = {e => {
+                              cont && cont.scrollIntoView();}}>услуги</Nav.Link>
+              <Nav.Link href="#Portfolio" id='link' onClick = {e => {
                               let cont = document.getElementById("Portfolio");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Портфолио</Nav.Link>
-              <Nav.Link href="#About" onClick = {e => {
+                              cont && cont.scrollIntoView();}}>портфолио</Nav.Link>
+              <Nav.Link href="#About" id='link' onClick = {e => {
                               let cont = document.getElementById("About");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Обо мне</Nav.Link>
-              <Nav.Link href="#Pros" onClick = {e => {
+                              cont && cont.scrollIntoView();}}>обо мне</Nav.Link>
+              <Nav.Link href="#Pros" id='link' onClick = {e => {
                               let cont = document.getElementById("Pros");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Преимущества</Nav.Link>
-              <Nav.Link href="#Steps" onClick = {e => {
+                              cont && cont.scrollIntoView();}}>преимущества</Nav.Link>
+              <Nav.Link href="#Steps" id='link' onClick = {e => {
                               let cont = document.getElementById("Steps");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Этапы работы</Nav.Link>
-              <Nav.Link href="#Contacts" onClick = {e => {
+                              cont && cont.scrollIntoView();}}>этапы работы</Nav.Link>
+              <Nav.Link href="#Contacts" id='link' onClick = {e => {
                               let cont = document.getElementById("Contacts");
                               e.preventDefault();  // Stop Page Reloading
-                              cont && cont.scrollIntoView();}}>Контакты</Nav.Link>
+                              cont && cont.scrollIntoView();}}>контакты</Nav.Link>
             </Nav>
-            <Nav>
+            <Nav id='socials'>
               <Nav.Link href="#"><Image src={face}/></Nav.Link>
               <Nav.Link href="#"><Image src={wats}/></Nav.Link>
               <Nav.Link href="#"><Image src={inst}/></Nav.Link>

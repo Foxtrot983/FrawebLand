@@ -5,9 +5,12 @@
 #Main {
     background-image: url('../assets/Background.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
-    width: 100vw;
-    height: 100vh;
+    background-size: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 90vw;
+    height: 100%;
+    margin-bottom: 5vh;
     background-color: #060606;
     box-shadow: inset 0 0 10px 5px #060606
 
@@ -19,19 +22,57 @@
     font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px; 
+    font-size: 8vh; 
     text-align: left;
     color: #FFFFFF;
-    
-    
+    text-transform: uppercase;
+    background-image: url("https://uploads-ssl.webflow.com/6261ae84441c1c4117cd841b/626458c439efa5a6d003e916_4.png");
+    background-size: 100%;
+    background-position: 10% 90%;
+
 }
+
+#Main h1:hover{
+}
+
 #Main p{
-    margin-top: 5rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
-
+    color: #C4C4C4;
+    padding-bottom: 3vw;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Main #send{
+    text-transform: uppercase;
+    color: #060606;
+    font-size: 4vh;
+    background-image: linear-gradient(180deg, #fdeb8f, #e2b228 45%, #fddb29 100%);
+    border-radius: 24px;
+    width: 20vw;
+    height: 13vh;
+}
+
+#Main #send:hover {
+    box-shadow: 0 0 20px -2px #e2b228;
+
+}
+
+#Main .arrowBTN{
+    background-color: #06060600;
+    border-style: none;
+    justify-content: center;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+#Main .arrowBTN img{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+#Main .arrowBTN img:hover{
+    width: 4.5vw;
+    height: 4.5vw;
 }
